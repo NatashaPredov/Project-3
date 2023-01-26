@@ -9,6 +9,7 @@
 - This would help to monitor the trade moving forward 
 
 # Scope
+- Utilize: RBC on TSX (CAD $) and on American Exchange (USD $) to understand correlation 
 1. Metrics for Feature engineering: std dev, average price as determined by the avg open/close high/low or all four
 2. Modeling: Pycarrot, Neural Network 
 3. ROI: determine trend (up/down/flat)
