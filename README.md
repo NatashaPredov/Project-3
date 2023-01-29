@@ -1,3 +1,5 @@
+![RBC Banner Image](Images/00_RBC_Banner.png)
+
 ## Project 3
 
 # Project Proposal 
