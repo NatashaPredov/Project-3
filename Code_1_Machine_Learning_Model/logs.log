@@ -1,0 +1,296 @@
+2023-02-07 16:43:30,516:INFO:PyCaret Classification Module
+2023-02-07 16:43:30,516:INFO:version 2.0
+2023-02-07 16:43:30,517:INFO:Initializing setup()
+2023-02-07 16:43:30,517:INFO:USI: 436e
+2023-02-07 16:43:30,518:INFO:setup(data=(972, 16), target=trend_10day, train_size=0.7, sampling=True, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20,
+                    polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01,
+                    fix_imbalance=False, fix_imbalance_method=None, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2023-02-07 16:43:30,518:INFO:Checking environment
+2023-02-07 16:43:30,518:INFO:python_version: 3.8.3
+2023-02-07 16:43:30,519:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2023-02-07 16:43:30,519:INFO:machine: AMD64
+2023-02-07 16:43:30,519:INFO:platform: Windows-10-10.0.22621-SP0
+2023-02-07 16:43:30,519:INFO:Memory: svmem(total=17016705024, available=3946156032, percent=76.8, used=13070548992, free=3946156032)
+2023-02-07 16:43:30,519:INFO:Physical Core: 6
+2023-02-07 16:43:30,520:INFO:Logical Core: 12
+2023-02-07 16:43:30,520:INFO:Checking libraries
+2023-02-07 16:43:30,520:INFO:pd==1.4.4
+2023-02-07 16:43:30,520:INFO:numpy==1.23.4
+2023-02-07 16:43:30,520:INFO:sklearn==1.2.0
+2023-02-07 16:43:31,035:INFO:xgboost==1.3.0
+2023-02-07 16:43:31,173:INFO:lightgbm==3.1.1
+2023-02-07 16:43:31,427:INFO:catboost==0.24.3
+2023-02-07 16:43:35,360:INFO:mlflow==1.12.1
+2023-02-07 16:43:35,361:INFO:Checking Exceptions
+2023-02-07 16:43:35,361:INFO:Preloading libraries
+2023-02-07 16:43:35,361:INFO:Preparing display monitor
+2023-02-07 16:43:35,376:INFO:Importing libraries
+2023-02-07 16:43:41,403:INFO:Copying data for preprocessing
+2023-02-07 16:43:41,404:INFO:Declaring global variables
+2023-02-07 16:43:41,415:INFO:Declaring preprocessing parameters
+2023-02-07 16:43:41,416:INFO:Importing preprocessing module
+2023-02-07 16:49:06,732:INFO:PyCaret Classification Module
+2023-02-07 16:49:06,732:INFO:version 2.0
+2023-02-07 16:49:06,732:INFO:Initializing setup()
+2023-02-07 16:49:06,733:INFO:USI: f7fd
+2023-02-07 16:49:06,733:INFO:setup(data=(972, 16), target=trend_10day, train_size=0.7, sampling=True, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20,
+                    polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01,
+                    fix_imbalance=False, fix_imbalance_method=None, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2023-02-07 16:49:06,733:INFO:Checking environment
+2023-02-07 16:49:06,734:INFO:python_version: 3.8.3
+2023-02-07 16:49:06,734:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2023-02-07 16:49:06,734:INFO:machine: AMD64
+2023-02-07 16:49:06,734:INFO:platform: Windows-10-10.0.22621-SP0
+2023-02-07 16:49:06,735:INFO:Memory: svmem(total=17016705024, available=4482453504, percent=73.7, used=12534251520, free=4482453504)
+2023-02-07 16:49:06,735:INFO:Physical Core: 6
+2023-02-07 16:49:06,735:INFO:Logical Core: 12
+2023-02-07 16:49:06,736:INFO:Checking libraries
+2023-02-07 16:49:06,736:INFO:pd==1.4.4
+2023-02-07 16:49:06,736:INFO:numpy==1.23.4
+2023-02-07 16:49:06,736:INFO:sklearn==1.2.0
+2023-02-07 16:49:06,736:INFO:xgboost==1.3.0
+2023-02-07 16:49:06,737:INFO:lightgbm==3.1.1
+2023-02-07 16:49:06,737:INFO:catboost==0.24.3
+2023-02-07 16:49:06,737:INFO:mlflow==1.12.1
+2023-02-07 16:49:06,737:INFO:Checking Exceptions
+2023-02-07 16:49:06,737:INFO:Preloading libraries
+2023-02-07 16:49:06,738:INFO:Preparing display monitor
+2023-02-07 16:49:06,761:INFO:Importing libraries
+2023-02-07 16:49:06,791:INFO:Copying data for preprocessing
+2023-02-07 16:49:06,792:INFO:Declaring global variables
+2023-02-07 16:49:06,809:INFO:Declaring preprocessing parameters
+2023-02-07 16:49:06,810:INFO:Importing preprocessing module
+2023-02-07 17:05:12,366:INFO:PyCaret Classification Module
+2023-02-07 17:05:12,366:INFO:version 2.0
+2023-02-07 17:05:12,367:INFO:Initializing setup()
+2023-02-07 17:05:12,367:INFO:USI: 2f8d
+2023-02-07 17:05:12,367:INFO:setup(data=(972, 16), target=trend_10day, train_size=0.7, sampling=True, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20,
+                    polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01,
+                    fix_imbalance=False, fix_imbalance_method=None, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2023-02-07 17:05:12,368:INFO:Checking environment
+2023-02-07 17:05:12,368:INFO:python_version: 3.8.3
+2023-02-07 17:05:12,368:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2023-02-07 17:05:12,369:INFO:machine: AMD64
+2023-02-07 17:05:12,369:INFO:platform: Windows-10-10.0.22621-SP0
+2023-02-07 17:05:12,370:INFO:Memory: svmem(total=17016705024, available=4819279872, percent=71.7, used=12197425152, free=4819279872)
+2023-02-07 17:05:12,370:INFO:Physical Core: 6
+2023-02-07 17:05:12,371:INFO:Logical Core: 12
+2023-02-07 17:05:12,371:INFO:Checking libraries
+2023-02-07 17:05:12,371:INFO:pd==1.4.4
+2023-02-07 17:05:12,372:INFO:numpy==1.23.4
+2023-02-07 17:05:12,372:INFO:sklearn==1.2.0
+2023-02-07 17:05:12,373:INFO:xgboost==1.3.0
+2023-02-07 17:05:12,373:INFO:lightgbm==3.1.1
+2023-02-07 17:05:12,374:INFO:catboost==0.24.3
+2023-02-07 17:05:12,374:INFO:mlflow==1.12.1
+2023-02-07 17:05:12,374:INFO:Checking Exceptions
+2023-02-07 17:05:12,375:INFO:Preloading libraries
+2023-02-07 17:05:12,375:INFO:Preparing display monitor
+2023-02-07 17:05:12,403:INFO:Importing libraries
+2023-02-07 17:05:12,429:INFO:Copying data for preprocessing
+2023-02-07 17:05:12,429:INFO:Declaring global variables
+2023-02-07 17:05:12,446:INFO:Declaring preprocessing parameters
+2023-02-07 17:05:12,447:INFO:Importing preprocessing module
+2023-02-07 17:13:31,185:INFO:PyCaret Classification Module
+2023-02-07 17:13:31,185:INFO:version 2.0
+2023-02-07 17:13:31,185:INFO:Initializing setup()
+2023-02-07 17:13:31,185:INFO:USI: a98f
+2023-02-07 17:13:31,186:INFO:setup(data=(972, 16), target=trend_10day, train_size=0.7, sampling=True, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20,
+                    polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01,
+                    fix_imbalance=False, fix_imbalance_method=None, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2023-02-07 17:13:31,186:INFO:Checking environment
+2023-02-07 17:13:31,186:INFO:python_version: 3.8.3
+2023-02-07 17:13:31,186:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2023-02-07 17:13:31,186:INFO:machine: AMD64
+2023-02-07 17:13:31,187:INFO:platform: Windows-10-10.0.22621-SP0
+2023-02-07 17:13:31,187:INFO:Memory: svmem(total=17016705024, available=5176582144, percent=69.6, used=11840122880, free=5176582144)
+2023-02-07 17:13:31,187:INFO:Physical Core: 6
+2023-02-07 17:13:31,187:INFO:Logical Core: 12
+2023-02-07 17:13:31,187:INFO:Checking libraries
+2023-02-07 17:13:31,187:INFO:pd==1.4.4
+2023-02-07 17:13:31,188:INFO:numpy==1.23.4
+2023-02-07 17:13:31,188:INFO:sklearn==1.2.0
+2023-02-07 17:13:31,188:INFO:xgboost==1.3.0
+2023-02-07 17:13:31,188:INFO:lightgbm==3.1.1
+2023-02-07 17:13:31,188:INFO:catboost==0.24.3
+2023-02-07 17:13:31,188:INFO:mlflow==1.12.1
+2023-02-07 17:13:31,189:INFO:Checking Exceptions
+2023-02-07 17:13:31,189:INFO:Preloading libraries
+2023-02-07 17:13:31,189:INFO:Preparing display monitor
+2023-02-07 17:13:31,210:INFO:Importing libraries
+2023-02-07 17:13:31,230:INFO:Copying data for preprocessing
+2023-02-07 17:13:31,231:INFO:Declaring global variables
+2023-02-07 17:13:31,247:INFO:Declaring preprocessing parameters
+2023-02-07 17:13:31,248:INFO:Importing preprocessing module
+2023-02-07 17:17:11,411:INFO:PyCaret Classification Module
+2023-02-07 17:17:11,411:INFO:version 2.0
+2023-02-07 17:17:11,412:INFO:Initializing setup()
+2023-02-07 17:17:11,412:INFO:USI: 326e
+2023-02-07 17:17:11,412:INFO:setup(data=(972, 16), target=trend_10day, train_size=0.7, sampling=True, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20,
+                    polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01,
+                    fix_imbalance=False, fix_imbalance_method=None, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2023-02-07 17:17:11,412:INFO:Checking environment
+2023-02-07 17:17:11,412:INFO:python_version: 3.8.3
+2023-02-07 17:17:11,413:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2023-02-07 17:17:11,413:INFO:machine: AMD64
+2023-02-07 17:17:11,413:INFO:platform: Windows-10-10.0.22621-SP0
+2023-02-07 17:17:11,413:INFO:Memory: svmem(total=17016705024, available=4637163520, percent=72.7, used=12379541504, free=4637163520)
+2023-02-07 17:17:11,413:INFO:Physical Core: 6
+2023-02-07 17:17:11,414:INFO:Logical Core: 12
+2023-02-07 17:17:11,414:INFO:Checking libraries
+2023-02-07 17:17:11,414:INFO:pd==1.4.4
+2023-02-07 17:17:11,414:INFO:numpy==1.23.4
+2023-02-07 17:17:11,414:INFO:sklearn==1.2.0
+2023-02-07 17:17:11,414:INFO:xgboost==1.3.0
+2023-02-07 17:17:11,414:INFO:lightgbm==3.1.1
+2023-02-07 17:17:11,415:INFO:catboost==0.24.3
+2023-02-07 17:17:11,415:INFO:mlflow==1.12.1
+2023-02-07 17:17:11,415:INFO:Checking Exceptions
+2023-02-07 17:17:11,415:INFO:Preloading libraries
+2023-02-07 17:17:11,415:INFO:Preparing display monitor
+2023-02-07 17:17:11,433:INFO:Importing libraries
+2023-02-07 17:17:11,455:INFO:Copying data for preprocessing
+2023-02-07 17:17:11,456:INFO:Declaring global variables
+2023-02-07 17:17:11,469:INFO:Declaring preprocessing parameters
+2023-02-07 17:17:11,470:INFO:Importing preprocessing module
+2023-02-07 17:22:05,886:INFO:PyCaret Classification Module
+2023-02-07 17:22:05,887:INFO:version 2.0
+2023-02-07 17:22:05,887:INFO:Initializing setup()
+2023-02-07 17:22:05,887:INFO:USI: 7b68
+2023-02-07 17:22:05,887:INFO:setup(data=(972, 16), target=trend_10day, train_size=0.7, sampling=True, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20,
+                    polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01,
+                    fix_imbalance=False, fix_imbalance_method=None, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2023-02-07 17:22:05,888:INFO:Checking environment
+2023-02-07 17:22:05,888:INFO:python_version: 3.8.3
+2023-02-07 17:22:05,888:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2023-02-07 17:22:05,888:INFO:machine: AMD64
+2023-02-07 17:22:05,889:INFO:platform: Windows-10-10.0.22621-SP0
+2023-02-07 17:22:05,889:INFO:Memory: svmem(total=17016705024, available=4685910016, percent=72.5, used=12330795008, free=4685910016)
+2023-02-07 17:22:05,889:INFO:Physical Core: 6
+2023-02-07 17:22:05,890:INFO:Logical Core: 12
+2023-02-07 17:22:05,890:INFO:Checking libraries
+2023-02-07 17:22:05,890:INFO:pd==1.4.4
+2023-02-07 17:22:05,890:INFO:numpy==1.23.4
+2023-02-07 17:22:05,890:INFO:sklearn==1.2.0
+2023-02-07 17:22:05,891:INFO:xgboost==1.3.0
+2023-02-07 17:22:05,891:INFO:lightgbm==3.1.1
+2023-02-07 17:22:05,891:INFO:catboost==0.24.3
+2023-02-07 17:22:05,891:INFO:mlflow==1.12.1
+2023-02-07 17:22:05,891:INFO:Checking Exceptions
+2023-02-07 17:22:05,892:INFO:Preloading libraries
+2023-02-07 17:22:05,892:INFO:Preparing display monitor
+2023-02-07 17:22:05,913:INFO:Importing libraries
+2023-02-07 17:22:05,931:INFO:Copying data for preprocessing
+2023-02-07 17:22:05,932:INFO:Declaring global variables
+2023-02-07 17:22:05,944:INFO:Declaring preprocessing parameters
+2023-02-07 17:22:05,945:INFO:Importing preprocessing module
+2023-02-07 17:24:02,042:INFO:PyCaret Classification Module
+2023-02-07 17:24:02,043:INFO:version 2.0
+2023-02-07 17:24:02,043:INFO:Initializing setup()
+2023-02-07 17:24:02,043:INFO:USI: 245c
+2023-02-07 17:24:02,043:INFO:setup(data=(972, 16), target=trend_10day, train_size=0.7, sampling=True, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20,
+                    polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01,
+                    fix_imbalance=False, fix_imbalance_method=None, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2023-02-07 17:24:02,044:INFO:Checking environment
+2023-02-07 17:24:02,044:INFO:python_version: 3.8.3
+2023-02-07 17:24:02,044:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2023-02-07 17:24:02,044:INFO:machine: AMD64
+2023-02-07 17:24:02,045:INFO:platform: Windows-10-10.0.22621-SP0
+2023-02-07 17:24:02,045:INFO:Memory: svmem(total=17016705024, available=4705566720, percent=72.3, used=12311138304, free=4705566720)
+2023-02-07 17:24:02,045:INFO:Physical Core: 6
+2023-02-07 17:24:02,045:INFO:Logical Core: 12
+2023-02-07 17:24:02,045:INFO:Checking libraries
+2023-02-07 17:24:02,046:INFO:pd==1.4.4
+2023-02-07 17:24:02,046:INFO:numpy==1.23.4
+2023-02-07 17:24:02,046:INFO:sklearn==1.2.0
+2023-02-07 17:24:02,046:INFO:xgboost==1.3.0
+2023-02-07 17:24:02,046:INFO:lightgbm==3.1.1
+2023-02-07 17:24:02,047:INFO:catboost==0.24.3
+2023-02-07 17:24:02,047:INFO:mlflow==1.12.1
+2023-02-07 17:24:02,047:INFO:Checking Exceptions
+2023-02-07 17:24:02,047:INFO:Preloading libraries
+2023-02-07 17:24:02,047:INFO:Preparing display monitor
+2023-02-07 17:24:02,066:INFO:Importing libraries
+2023-02-07 17:24:02,084:INFO:Copying data for preprocessing
+2023-02-07 17:24:02,084:INFO:Declaring global variables
+2023-02-07 17:24:02,097:INFO:Declaring preprocessing parameters
+2023-02-07 17:24:02,098:INFO:Importing preprocessing module
+2023-02-07 17:32:34,030:INFO:PyCaret Classification Module
+2023-02-07 17:32:34,030:INFO:version 2.0
+2023-02-07 17:32:34,031:INFO:Initializing setup()
+2023-02-07 17:32:34,031:INFO:USI: 96ec
+2023-02-07 17:32:34,031:INFO:setup(data=(972, 16), target=trend_10day, train_size=0.7, sampling=True, sample_estimator=None, categorical_features=None, categorical_imputation=constant, ordinal_features=None,
+                    high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20,
+                    polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None,
+                    group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01,
+                    fix_imbalance=False, fix_imbalance_method=None, data_split_shuffle=True, folds_shuffle=False, n_jobs=-1, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2023-02-07 17:32:34,031:INFO:Checking environment
+2023-02-07 17:32:34,031:INFO:python_version: 3.8.3
+2023-02-07 17:32:34,032:INFO:python_build: ('default', 'Jul  2 2020 17:30:36')
+2023-02-07 17:32:34,032:INFO:machine: AMD64
+2023-02-07 17:32:34,032:INFO:platform: Windows-10-10.0.22621-SP0
+2023-02-07 17:32:34,032:INFO:Memory: svmem(total=17016705024, available=3664662528, percent=78.5, used=13352042496, free=3664662528)
+2023-02-07 17:32:34,032:INFO:Physical Core: 6
+2023-02-07 17:32:34,032:INFO:Logical Core: 12
+2023-02-07 17:32:34,033:INFO:Checking libraries
+2023-02-07 17:32:34,033:INFO:pd==1.4.4
+2023-02-07 17:32:34,033:INFO:numpy==1.23.4
+2023-02-07 17:32:34,033:INFO:sklearn==1.2.0
+2023-02-07 17:32:34,033:INFO:xgboost==1.3.0
+2023-02-07 17:32:34,033:INFO:lightgbm==3.1.1
+2023-02-07 17:32:34,034:INFO:catboost==0.24.3
+2023-02-07 17:32:34,034:INFO:mlflow==1.12.1
+2023-02-07 17:32:34,034:INFO:Checking Exceptions
+2023-02-07 17:32:34,034:INFO:Preloading libraries
+2023-02-07 17:32:34,035:INFO:Preparing display monitor
+2023-02-07 17:32:34,052:INFO:Importing libraries
+2023-02-07 17:32:34,072:INFO:Copying data for preprocessing
+2023-02-07 17:32:34,072:INFO:Declaring global variables
+2023-02-07 17:32:34,081:INFO:Declaring preprocessing parameters
+2023-02-07 17:32:34,083:INFO:Importing preprocessing module
