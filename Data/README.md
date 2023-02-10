@@ -1,10 +1,11 @@
-# Project 3 - Data  
+# Project 3 - Predict the Weekly Trend of Royal Bank (RY.TO)
+# Data
 ![RBC Banner Image](../Images/00_RBC_Banner.png)
   
 ## Project Overview  
 ---
 Objective: To enhance returns savings accounts through an active trading process that can be executed in all types accounts.    
-Approach:   
+Approach:  By predicting the weekly trend of Royal Bank (RY.TO)  
   
 ## Data Dictionary  
 ---

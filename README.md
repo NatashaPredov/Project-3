@@ -1,6 +1,5 @@
+# Project 3 - Predict the Weekly Trend of Royal Bank (RY.TO)
 ![RBC Banner Image](Images/00_RBC_Banner.png)
-
-## Project 3
 
 # Overview, Project Proposal & Scope
 
@@ -20,22 +19,22 @@ For project 3, our core team will be extending off of project 1 (https://github.
 
   
 In project 3, our team used 3 years of data to build the models that would help to determine if we are confidnet that the trend for the next two weeks are up (= long trade), down (= short trade), flat to to emulate trading security multiple times within a business week. This would help to monitor the trade moving forward. 
+  
+Project 3:  
+In project 3, our team utilized RBC on TSX (CAD $) and on American Exchange (USD $) to understand correlation. In order to create an algorithm the predicts a stock’s trend over the next 10 trading days. The work below extends from the learning obtained since Project 2 completed through: 
 
-In project 3, our team utilized RBC on TSX (CAD $) and on American Exchange (USD $) to understand correlation. In order to create an algorithm the predicts a stock’s trend over the next 10 trading days. The work below extends from the learning obtained since Project 2 completed through 
-
-1.Utilizing Metrics for Feature engineering: std dev, average price as determined by the avg open/close high/low or all four
+1. Utilizing Metrics for Feature engineering: std dev, average price as determined by the avg open/close high/low or all four
 2. 3 types of Modes for prediction: Machine Learning, Neural Networks, and Moving Average Model.
 
 Before we proceed to the Process of the work completed in Project 3, a few clarifying definitions: 
 
-  Day Trading
-  
-- If you buy and sell (or sell and buy) a security within the same day, you are day trading.
-- Day traders leverage fluctuations in an asset's daily price with a goal of turning a profit.
-    
- Week Trading
-- If you buy and sell (or sell and buy) a security within a week or two, you are week trading. 
-- Week traders leverage fluctuations in an asset's price over several days with a goal of turning a profit.
+>**Day Trading** 
+>- If you buy and sell (or sell and buy) a security within the same day, you are day trading.
+>- Day traders leverage fluctuations in an asset's daily price with a goal of turning a profit.
+     
+>**Week Trading**
+>- If you buy and sell (or sell and buy) a security within a week or two, you are week trading. 
+>- Week traders leverage fluctuations in an asset's price over several days with a goal of turning a profit.
 
 
 
