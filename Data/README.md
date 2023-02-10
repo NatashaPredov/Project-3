@@ -1,11 +1,12 @@
-# Project 3 - Data
-![RBC Banner Image](.../Images/00_RBC_Banner.png)
-## Project Overview
+# Project 3 - Data  
+![RBC Banner Image](../Images/00_RBC_Banner.png)
+  
+## Project Overview  
 ---
 Objective: To enhance returns savings accounts through an active trading process that can be executed in all types accounts.    
 Approach:   
   
-## Data Dictionary
+## Data Dictionary  
 ---
 | No. | Field	                        | Description  
 | --- | -----	                        |	-----------  

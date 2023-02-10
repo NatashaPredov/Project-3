@@ -8,13 +8,15 @@ For project 3, our core team will be extending off of project 1 (https://github.
 
   Project 1: 
   
-    - Wanted to investigate and determine a predictive model for the long term behaviour of relatively stable ETFs.
-    - Wanted understand how this model would react and change due to the unforseen impacts the COVID-19 pandemic had on the Canadian Banks.
-    - The timeframe of the model data that the team will be analyzing covers 4 years: August 2016 through July 2020. While the validation data will cover:      - August 2019 through July 2020 - 6 months before and after the February 2020 COVID-19 crash. Due to this being unforseen and very out of the ordinary, the team will be ignoring the data up until Feb 2020 then picking our analysis back up 6 months post crash.
+- Wanted to investigate and determine a predictive model for the long term behaviour of relatively stable ETFs.
+- Wanted understand how this model would react and change due to the unforseen impacts the COVID-19 pandemic had on the Canadian Banks.
+-  The timeframe of the model data that the team will be analyzing covers 4 years: August 2016 through July 2020. While the validation data will cover:      
+    - August 2019 through July 2020 
+    - 6 months before and after the February 2020 COVID-19 crash. Due to this being unforseen and very out of the ordinary, the team will be ignoring the data up until Feb 2020 then picking our analysis back up 6 months post crash.
   
   Project 2: 
   
-    - Determine a trading strategy for Scotiabank stocks (BNS) in a way that will beat a buy and hold strategy relative to the other correlated Bank stocks.
+- Determine a trading strategy for Scotiabank stocks (BNS) in a way that will beat a buy and hold strategy relative to the other correlated Bank stocks.
 
   
 In project 3, our team used 3 years of data to build the models that would help to determine if we are confidnet that the trend for the next two weeks are up (= long trade), down (= short trade), flat to to emulate trading security multiple times within a business week. This would help to monitor the trade moving forward. 
@@ -28,23 +30,25 @@ Before we proceed to the Process of the work completed in Project 3, a few clari
 
   Day Trading
   
-    - If you buy and sell (or sell and buy) a security within the same day, you are day trading.
-    - Day traders leverage fluctuations in an asset's daily price with a goal of turning a profit.
+- If you buy and sell (or sell and buy) a security within the same day, you are day trading.
+- Day traders leverage fluctuations in an asset's daily price with a goal of turning a profit.
     
  Week Trading
-    - If you buy and sell (or sell and buy) a security within a week or two, you are week trading. 
-    - Week traders leverage fluctuations in an asset's price over several days with a goal of turning a profit.
+- If you buy and sell (or sell and buy) a security within a week or two, you are week trading. 
+- Week traders leverage fluctuations in an asset's price over several days with a goal of turning a profit.
 
 
 
 # Process
- 
-Model 1: Machine Learning
-
-Model 2: Neural Networks
-
-Model 3: 
-
+## Step 1: Feature Engineering
+  
+## Step 2: Modelling
+### Model 1: Machine Learning
+  
+### Model 2: Neural Networks
+  
+### Model 3: Moving Average
+  
 # Findings and Outcomes
 
 # Next Steps
