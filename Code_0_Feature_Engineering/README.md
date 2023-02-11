@@ -1,5 +1,5 @@
 # Project 3 - Predict Weekly Trends of Royal Bank (RY.TO)
-# DataFeature Engineering
+# Feature Engineering
 ![RBC Banner Image](../Images/00_RBC_Banner.png)
   
 ## Project Overview  
@@ -9,9 +9,6 @@ Approach:  By predicting the weekly trend of Royal Bank (RY.TO)
   
 ## Feature Engineering Process  
 ---  
-> Outputs of the Feature Engineering Process:  
-> - [RY.TO Feature Engineering Jupyter Notebook](Fearure_Engineering_RY_TO.ipynb)  
-> - [RY.TO Feature Engineered CSV File](../Data/Feature_Engineering.RY.csv)  
 1. Develope Feature X Variables
     > Feature X varaibles are used when predicting Target Y varibles of another security.  
     > Feature X varaibles are used when creating Target Y varibles for this security.
@@ -26,8 +23,12 @@ Approach:  By predicting the weekly trend of Royal Bank (RY.TO)
     > - Classifcation Variables are created by determining the ration of +ve vs. -ve slopes
 3. Dataframes are exported to csv files for use in modeling
     > See modeling for how the varius data files are consumed
-  
-## Exploratory Data Analysis (RE.TO Variables)  
+4. Outputs of the Feature Engineering Process:  
+    > - [RY.TO Feature Engineering Jupyter Notebook](Fearure_Engineering_RY_TO.ipynb)  
+    > - [RY.TO Feature Engineered CSV File](../Data/Feature_Engineering_RY.csv)  
+
+
+## Exploratory Data Analysis (RY.TO Variables)  
 ---
 1. Feature X Variables:
     - From Import - 6 Variables
