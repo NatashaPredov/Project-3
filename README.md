@@ -1,4 +1,4 @@
-# Project 3 - Predict the Weekly Trend of Royal Bank (RY.TO)
+# Project 3 - Predict Weekly Trends of Royal Bank (RY.TO)
 ![RBC Banner Image](Images/00_RBC_Banner.png)
 
 # Overview, Project Proposal & Scope
@@ -40,8 +40,58 @@ Before we proceed to the Process of the work completed in Project 3, a few clari
 
 # Process
 ## Step 1: Feature Engineering
+---
+1. Imput: Import Daily Data with an API
+    - Prices: High, Low, Open, Close, and Adjusted Close; and Volume
+    - API: Yahoo Finance
+2. Create New Variables - Feature Engineering
+    - Feature X Variables
+      - Feature X data is used to predict Target Y data
+      - Backward Looking becase the data must exist in order to be used in a prediction
+      - Average Prices: High/Low, Open/Close, High/Low/Open/Close,
+      - Price Changes: Percent Change, Standard Deviations, z-Scores
+      - Moving Average Prices
+    - Target Y Varibles
+      - Target Y Data is predicted from Feature X data
+      - Forward Looking because the data will not exist when making predictions 
+      - 10-Day Linear Regresion where the slope indicates the trend
+    - [Feature Engineering README](/Code_0_Feature_Engineering/README.md)  
+3. Output: CSV Files
+    - Create 1 csv file for each security
+    - Files are to be combined during the Variable Selection step
+    - [Data Files README](/Data/README.md)  
+    - [Data Files Data Dictionary](/Data/Feature_Engineering_Data_Dictionary.txt)
+4. Feature Engineering Jupyter Notebooks and CSV Files  
+    > Links to Jupyter Notbook and CSV Data files.  
+
+      | No. | Jupyter Notebook	                            | CSV File  
+      | --- | ----------------	                            | -----------  
+      |  1. | [RY.TO](Fearure_Engineering_RY_TO.ipynb)      | [Royal Bank](Feature_Engineering_RY.csv)  
+      | --- | ----------------------                        | -------------------------------------------   
+      |  2. | [BMO.TO](Fearure_Engineering_BMO_TO.ipynb)    | [Bank of Montreal](Feature_Engineering_BMO.csv)  
+      |  3. | [BNS.TO](Fearure_Engineering_BNS_TO.ipynb)    | [ScotiaBank](Feature_Engineering_BNS.ipynb)  
+      |  4. | [CM.TO](Fearure_Engineering_CM_TO.ipynb)      | [Bank of Commerce/CIBC](Feature_Engineering_CM.csv)  
+      |  5. | [NA.TO](Fearure_Engineering_NA_TO.ipynb)      | [National Bank](Feature_Engineering_NA.csv)  
+      |  6. | [TD.TO](Fearure_Engineering_TD_TO.ipynb)      | [TD Bank](Feature_Engineering_TD.csv)  
+      | --- | ----------------------                        | -------------------------------------------  
+      |  7. | [CL.TO](Fearure_Engineering_CL.ipynb)         | [Crude Oil](Feature_Engineering_CL.csv)  
+      |  8. | [XGB.TO](Fearure_Engineering_XGB_TO.ipynb)    | [Government Bond Index](Feature_Engineering_XGB.csv)  
+      |  9. | [ZEB.TO](Fearure_Engineering_XEB_TO.ipynb)    | [Canadian Bank Index](Feature_Engineering_ZEB.csv)  
+      | 10. | [ZWB.TO](Fearure_Engineering_ZWB_TO.ipynb)    | [Canadian Bank Index with Covered Call](Feature_Engineering_ZWB.csv)  
   
-## Step 2: Modelling
+## Step 2: Variable Selection
+1. Project 1 Outcome
+    - Feature Engineering data from other securities can generate highly correlated relationships to the Target security 
+    - Focus on percent change and variing the number of days to calculate percent change  
+2. Project 2 Outcome 
+    - Highly correlated Feature X and Target Y percent change variables (Project 1) can be used to create strong predictive models
+    - Refined the outputs of Project 1 and tested several modeling techniques with the data
+3. Project 3 Experiment
+    - Engineer an number of both Feature X and Target Y varibles
+    - Identify highly correlated Feature X and Target Y varibles to be used in the modeling process 
+> **Note:** There was insufficent time to inplement a robust variable selection process
+## Step 3: Modelling
+---
 ### Model 1: Machine Learning
   
 ### Model 2: Neural Networks
