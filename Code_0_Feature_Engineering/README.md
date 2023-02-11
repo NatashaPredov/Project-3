@@ -94,15 +94,15 @@ E. Export Data to CSV
 
 | No. | Jupyter Notebook	                            | CSV File  
 | --- | ----------------	                            | -----------  
-|  1. | [RY.TO](Fearure_Engineering_RY_TO.ipynb)      | [Royal Bank](Feature_Engineering_RY.csv)  
+|  1. | [RY.TO](Fearure_Engineering_RY_TO.ipynb)      | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
 | --- | ----------------------                        | -------------------------------------------   
-|  2. | [BMO.TO](Fearure_Engineering_BMO_TO.ipynb)    | [Bank of Montreal](Feature_Engineering_BMO.csv)  
-|  3. | [BNS.TO](Fearure_Engineering_BNS_TO.ipynb)    | [ScotiaBank](Feature_Engineering_BNS.ipynb)  
-|  4. | [CM.TO](Fearure_Engineering_CM_TO.ipynb)      | [Bank of Commerce/CIBC](Feature_Engineering_CM.csv)  
-|  5. | [NA.TO](Fearure_Engineering_NA_TO.ipynb)      | [National Bank](Feature_Engineering_NA.csv)  
-|  6. | [TD.TO](Fearure_Engineering_TD_TO.ipynb)      | [TD Bank](Feature_Engineering_TD.csv)  
+|  2. | [BMO.TO](Fearure_Engineering_BMO_TO.ipynb)    | [Bank of Montreal](../Data/Feature_Engineering_BMO.csv)  
+|  3. | [BNS.TO](Fearure_Engineering_BNS_TO.ipynb)    | [ScotiaBank](../Data/Feature_Engineering_BNS.ipynb)  
+|  4. | [CM.TO](Fearure_Engineering_CM_TO.ipynb)      | [Bank of Commerce/CIBC](../Data/Feature_Engineering_CM.csv)  
+|  5. | [NA.TO](Fearure_Engineering_NA_TO.ipynb)      | [National Bank](../Data/Feature_Engineering_NA.csv)  
+|  6. | [TD.TO](Fearure_Engineering_TD_TO.ipynb)      | [TD Bank](../Data/Feature_Engineering_TD.csv)  
 | --- | ----------------------                        | -------------------------------------------  
-|  7. | [CL.TO](Fearure_Engineering_CL.ipynb)         | [Crude Oil](Feature_Engineering_CL.csv)  
-|  8. | [XGB.TO](Fearure_Engineering_XGB_TO.ipynb)    | [Government Bond Index](Feature_Engineering_XGB.csv)  
-|  9. | [ZEB.TO](Fearure_Engineering_XEB_TO.ipynb)    | [Canadian Bank Index](Feature_Engineering_ZEB.csv)  
-| 10. | [ZWB.TO](Fearure_Engineering_ZWB_TO.ipynb)    | [Canadian Bank Index with Covered Call](Feature_Engineering_ZWB.csv)  
+|  7. | [CL.TO](Fearure_Engineering_CL.ipynb)         | [Crude Oil](../Data/Feature_Engineering_CL.csv)  
+|  8. | [XGB.TO](Fearure_Engineering_XGB_TO.ipynb)    | [Government Bond Index](../Data/Feature_Engineering_XGB.csv)  
+|  9. | [ZEB.TO](Fearure_Engineering_XEB_TO.ipynb)    | [Canadian Bank Index](../Data/Feature_Engineering_ZEB.csv)  
+| 10. | [ZWB.TO](Fearure_Engineering_ZWB_TO.ipynb)    | [Canadian Bank Index with Covered Call](../Data/Feature_Engineering_ZWB.csv)  
