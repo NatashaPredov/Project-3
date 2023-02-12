@@ -19,7 +19,7 @@ Approach:  By predicting the weekly trend of Royal Bank (RY.TO)
 - If an 'UpsideBreakout' event is identified, the average change for the next lookahead days is calculated and stored in the 'dctUpsideBreakout' dictionary.
 - If a 'DownsideBreakout' event is identified, the average change for the next lookahead days is calculated and stored in the 'dctDownsideBreakout' dictionary.
 - The code will output the average change for the 'UpsideBreakout' and 'DownsideBreakout' events over the lookahead period, stored in the dictionaries 'dctUpsideBreakout' and 'dctDownsideBreakout'. The close price after 16 days from the crossover event is also stored in the 'Close16' column of the 'dfCopy' dataframe.
-- ![Project-3_EMA_TREND_BMO ipynb at main · NatashaPredov_Project-3 - Google Chrome 2_12_2023 3_51_59 PM](https://user-images.githubusercontent.com/110307714/218336539-fa8867f3-ee06-4a52-8151-98efb1524126.png)
+![Project-3_EMA_TREND_BMO ipynb at main · NatashaPredov_Project-3 - Google Chrome 2_12_2023 3_51_59 PM](https://user-images.githubusercontent.com/110307714/218336539-fa8867f3-ee06-4a52-8151-98efb1524126.png)
 ### Trend Length
 - A new column, trend_length, is created to store the length of the trend, and a new column, trend, is created to store the direction of the trend.
 
