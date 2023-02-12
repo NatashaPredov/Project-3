@@ -93,11 +93,11 @@ Before we proceed to the Process of the work completed in Project 3, a few clari
 ## Step 3: Modelling
 ---
 ### Model 1: Machine Learning
-  
+  - [Data Files README](Code_1_Machine_Learning_Model)/README.md)    
 ### Model 2: Neural Networks
-  
+  - [Data Files README](/Code_2_Neural_Network_Model/README.md)    
 ### Model 3: Moving Average
-  
+  - [Data Files README](/Code_3_Moving_Average_Model/README.md)    
 # Findings and Outcomes
 
 # Next Steps
