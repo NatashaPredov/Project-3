@@ -29,11 +29,13 @@ Approach:  By predicting the weekly trend of Royal Bank (RY.TO)
 - prev_ema20 to store the previous period's EMA20
 - The dataframe is looped through using df.iterrows() to find the crossovers and track the trend length and direction. The following logic is used:
 
-- If the previous period's EMA8 is less than the previous period's EMA20 and the current period's EMA8 is greater than the current period's EMA20,a crossover from       below to above the EMA20 has occurred, and the trend is set to 'up'. The current period's trend_length is set to 1 and the trend is set to 'up'.
-  If the previous period's EMA8 is greater than the previous period's EMA20 and the current period's EMA8 is less than the current period's EMA20, a crossover from     above to below the EMA20 has occurred, and the trend is set to 'down'. The current period's trend_length is set to 1 and the trend is set to 'down'.
+- If the previous period's EMA8 is less than the previous period's EMA20 and the current period's EMA8 is greater than the current period's EMA20,a crossover from       below to above the EMA20 has occurred, and the trend is set to 'up'.
+  The current period's trend_length is set to 1 and the trend is set to 'up'.
+  If the previous period's EMA8 is greater than the previous period's EMA20 and the current period's EMA8 is less than the current period's EMA20, a crossover from     above to below the EMA20 has occurred, and the trend is set to 'down'. 
+  The current period's trend_length is set to 1 and the trend is set to 'down'.
   If the trend is not None, the current period's trend_length is set to the previous period's trend_length plus 1 and the trend is set to the previous period's trend.
   The final dataframe is displayed using the display function and the tail function to show the last 10 rows of the data.
-  With this code, you can now track the trend length and direction based on the crossover of the EMA8 and EMA20 indicators.
+  With this code, you can track the trend length and direction based on the crossover of the EMA8 and EMA20 indicators.
   
 ![Project-3_EMA_TREND_BMO ipynb at main · NatashaPredov_Project-3 - Google Chrome 2_12_2023 3_53_53 PM](https://user-images.githubusercontent.com/110307714/218336647-ccf230ae-15d1-46ed-a011-615e512302c5.png)
 
@@ -57,8 +59,8 @@ In this section, the accuracy of the trend is calculated based on the comparison
 - A variable, total_rows, is created to store the total number of rows in the dataframe.
 - A variable, correct_trend, is created to keep track of the number of times the trend direction correctly matches the direction of the price movement.
 - The dataframe is looped through using df.iterrows() to check the accuracy of the trend.
-- For each row, if the trend is not None, the closing price is compared with the opening price. If the closing price is greater than the opening price and the trend is 'up', the correct_trend variable is incremented. If the closing price is less than the opening price and the trend is 'down', the correct_trend variable is incremented.
-The accuracy is calculated by dividing the correct_trend by the total_rows.
+- For each row, if the trend is not None, the closing price is compared with the opening price. If the closing price is greater than the opening price and the trend     is 'up', the correct_trend variable is incremented. If the closing price is less than the opening price and the trend is 'down', the correct_trend variable is         incremented.
+- The accuracy is calculated by dividing the correct_trend by the total_rows.
 
 ![Project-3_EMA_TREND_BMO ipynb at main ](https://user-images.githubusercontent.com/110307714/218337138-78936712-3a50-4321-a8a0-45474b53310f.png)
 
