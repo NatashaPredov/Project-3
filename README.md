@@ -93,15 +93,18 @@ Before we proceed to the Process of the work completed in Project 3, a few clari
 ## Step 3: Modelling
 ---
 ### Model 1: Machine Learning
-  - [Data Files README](Code_1_Machine_Learning_Model)/README.md)    
+  - [Machine Learning README](Code_1_Machine_Learning_Model)    
 ### Model 2: Neural Networks
-  - [Data Files README](/Code_2_Neural_Network_Model/README.md)    
+  - [Neural Networks README](/Code_2_Neural_Network_Model/README.md)    
 ### Model 3: Moving Average
-  - [Data Files README](/Code_3_Moving_Average_Model/README.md)    
+  - [Moving Average README](/Code_3_Moving_Average_Model/README.md)    
+  
+  
 # Findings and Outcomes
-
+---
+  
 # Next Steps
-
+---
 From project 1 to project 3, our team's output of the project has been code first focus meaning that we did not have a front end user interface for our project. User interfaces allow users whom may not be as technically savy as the project group, to view, access, alter and use the code we have developed over the last 6 months. Therefor if the cumulation of our work were to be fully recognized and utilized by the general public, our next step would be to connect the backend code to a front end UI that incorporates an easy to use user experience. The UI/UX will focus on delivering our code in a simplistic, straightforward, consistent manner. 
 
 From detailed research, a few options stuck out that range from pre built options to building of our own solution:

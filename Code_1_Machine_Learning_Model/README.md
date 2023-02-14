@@ -57,51 +57,75 @@ Approach:  By predicting the weekly trend of Royal Bank (RY.TO)
 ## Detailed Machine Learning Process  
 --- 
 > Create data files for securities containing source and engineered Feature X and Target Y variables.  
-
+  
 A.  Import Python Libraries   
     ![PY Libraries](../Images/ML_c_01_Py_Libraries.png)  
+---    
 B.  Import Data   
-    - B1. Import Feature X Data
-        - B1.i Import CSV File  
-            ![Yahoo Import](../Images/FE_b_02_YahooImport.png)  
-        - B1.ii Review CSV Dataframe  
-            ![Yahoo Import](../Images/FE_b_02_YahooImport.png)  
-        - B1.iii Remove Target Y Variables  
-            ![Yahoo Import](../Images/FE_b_02_YahooImport.png)  
-        - B1.iv Review Feature X Dataframe  
-            ![Yahoo Import](../Images/FE_b_02_YahooImport.png)  
-    - B2. Import Target Y Data
-        - B2.i Import CSV File  
-            ![Yahoo Import](../Images/FE_b_02_YahooImport.png)  
-        - B2.ii Review CSV Dataframe  
-            ![Yahoo Import](../Images/FE_b_02_YahooImport.png)  
-        - B2.iii Remove Feature X Variables  
-            ![Yahoo Import](../Images/FE_b_02_YahooImport.png)  
-        - B2.iv Review Target Y Dataframe  
-            ![Yahoo Import](../Images/FE_b_02_YahooImport.png)  
+    B1. Import Feature X Data  
+    B1. i Import CSV File  
+    ![Yahoo Import](../Images/ML_c_02_Import_Features.png)  
+    B1. ii Review CSV Dataframe  
+    ![Yahoo Import](../Images/ML_c_03_Display_Import_Features.png)  
+    B1. iii Remove Target Y Variables  
+    ![Yahoo Import](../Images/ML_c_04_Drop_Columns_Features.png)  
+    B1. iv Review Feature X Dataframe  
+    ![Yahoo Import](../Images/ML_c_05_Review_Features.png)  
+---
+    B2. Import Target Y Data  
+    B2. i Import CSV File  
+    ![Yahoo Import](../Images/ML_c_06_Import_Targets.png)  
+    B2. ii Review CSV Dataframe  
+    ![Yahoo Import](../Images/ML_c_07_Display_Import_Target.png)  
+    B2. iii Remove Feature X Variables  
+    ![Yahoo Import](../Images/ML_c_08_Drop_Columns_Target.png)  
+    B2. iv Review Target Y Dataframe  
+    ![Yahoo Import](../Images/ML_c_09_Review_Target.png)  
 
-C.  Feature Engineering -  Feature X Variables  
-    C1. Add Feature X Varibles to a Dataframe   
-    ![Create X Variables](../Images/FE_b_03_Create_X_Variables.png)  
-    C2. Display Feature X Variables   
-    ![Display X Variables](../Images/FE_b_04_Display_X_Variables.png)  
-    C3. Chart Daily Prices High vs. Low   
-    ![Chart Price](../Images/FE_b_05_Chart_Price_Hi_Lo.png)  
-    C4. Chart Daily Returns   
-    ![Chart Return](../Images/FE_b_06_Chart_Daily_Return.png)  
-    C5. Chart Standard Deviation   
-    ![Chart Styd Dev](../Images/FE_b_07_Chart_Stad_Dev.png)  
-D. Feature Engineering - Target Y variables  
-    D1. Prepare Feature X Dataframe to create Target Y variables  
-    ![Prep input df](../Images/FE_b_08_Prep_DF_for_Targets.png)  
-    D2. Add Target Y Varibles to a Dataframe     
-    ![Create Y variables](../Images/FE_b_09_Reg_Trends.png)  
-    D3. Display Target Y Variables (10-Day Slope of Prices)
-    ![Display Y](../Images/FE_b_10_Targ_Y_DF.png)  
-    D4. Concatinate Target Y Varibles to Feature X Variables   
-    ![Concatinate X and Y](../Images/FE_b_11_Concatinate_DF.png)  
-    D5. Chart 10-Day Slope of Prices   
-    ![Chart Slopes](../Images/FE_b_12_Chart_Slopes.png)  
+C.  Prepare Modeling Data 
+---
+    C1. Create Dataframe for Modeling Process   
+    C1. i Concatinate Feature X and Target Y Fataframes   
+    ![Create X Variables](../Images/ML_c_10_Model_df.png)  
+    C1. ii Display Modeling Dataframe   
+    ![Display X Variables](../Images/ML_c_11_Review_Model_df.png)  
+---      
+    C2. Prepare Modeling Data   
+    C2. i Split Data into Training and Testing Dataframes   
+    ![Chart Price](../Images/ML_c_12_TrainTest_Split.png)  
+    C2. ii Create Training Dataframe   
+    ![Chart Return](../Images/ML_c_13_Train_df.png)  
+    C2. iii Review Training Dataframe      
+    ![Chart Styd Dev](../Images/ML_c_14_Review_Train_df.png)  
+    C2. iv Create Testing Dataframe     
+    ![Chart Price](../Images/ML_c_15_Test_df.png)  
+    C2. v Review Testing Dataframe  
+    ![Chart Return](../Images/ML_c_16_Review_Test_df.png)  
+    C2. vi Convert Target Y datatype from dataframes to series   
+    ![Chart Styd Dev](../Images/ML_c_17_Target_Series.png)  
+---
+    C3. Create Logistic Regression Model  
+    C3. i Create Model  
+    ![Prep input df](../Images/ML_c_18_Create_Model.png)  
+    C3. ii Create Predictions   
+    ![Create Y variables](../Images/ML_c_19_Predictions.png)  
+---    
+    C4. Model Performance  
+    C4. i Classifcation Report  
+    ![Display Y](../Images/ML_c_20_Class_Report.png)  
+    C4. ii Confusion Matrix   
+    ![Concatinate X and Y](../Images/ML_c_21_Confusion_Matrix.png)  
+    C4. iii Accuracy Measures   
+    ![Chart Slopes](../Images/ML_c_22_Accuracy.png)  
+    C4. iv Review Predictions  
+    ![Display Y](../Images/ML_c_23_Review_Predictions.png)  
+    C4. v Chart Predictions 2018   
+    ![Concatinate X and Y](../Images/ML_c_24_Chart_Predictions.png)  
+    C4. vi Chart Pridictions April 2018   
+    ![Chart Slopes](../Images/ML_c_25_Chart_Predictions_Apr18.png)  
+    C4. vi Chart ROC   
+    ![Chart Slopes](../Images/ML_c_26_Chart_ROC.png)  
+
 E. Export Data to CSV   
     ![Export CSV](../Images/FE_b_13_Export_csv.png)  
   
@@ -110,17 +134,17 @@ E. Export Data to CSV
 ---
 > Links to Jupyter Notbook and CSV Data files.  
 
-| No. | Jupyter Notebook	                            | CSV File  
-| --- | ----------------	                            | -----------  
-|  1. | [RY.TO](Fearure_Engineering_RY_TO.ipynb)      | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
-| --- | ----------------------                        | -------------------------------------------   
-|  2. | [BMO.TO](Fearure_Engineering_BMO_TO.ipynb)    | [Bank of Montreal](../Data/Feature_Engineering_BMO.csv)  
-|  3. | [BNS.TO](Fearure_Engineering_BNS_TO.ipynb)    | [ScotiaBank](../Data/Feature_Engineering_BNS.ipynb)  
-|  4. | [CM.TO](Fearure_Engineering_CM_TO.ipynb)      | [Bank of Commerce/CIBC](../Data/Feature_Engineering_CM.csv)  
-|  5. | [NA.TO](Fearure_Engineering_NA_TO.ipynb)      | [National Bank](../Data/Feature_Engineering_NA.csv)  
-|  6. | [TD.TO](Fearure_Engineering_TD_TO.ipynb)      | [TD Bank](../Data/Feature_Engineering_TD.csv)  
-| --- | ----------------------                        | -------------------------------------------  
-|  7. | [CL.TO](Fearure_Engineering_CL.ipynb)         | [Crude Oil](../Data/Feature_Engineering_CL.csv)  
-|  8. | [XGB.TO](Fearure_Engineering_XGB_TO.ipynb)    | [Government Bond Index](../Data/Feature_Engineering_XGB.csv)  
-|  9. | [ZEB.TO](Fearure_Engineering_XEB_TO.ipynb)    | [Canadian Bank Index](../Data/Feature_Engineering_ZEB.csv)  
-| 10. | [ZWB.TO](Fearure_Engineering_ZWB_TO.ipynb)    | [Canadian Bank Index with Covered Call](../Data/Feature_Engineering_ZWB.csv)  
+| No. | Jupyter Notebook	                            | Feature X - CSV File                                        | Target Y - CSV File  
+| --- | ----------------	                            | ------------------                                        | -----------------  
+|  1. | [RY.TO](ML_RY_Predicts_RY.ipynb)      | [Royal Bank](../Data/Feature_Engineering_RY.csv)            | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
+| --- | ----------------------                | -------------------------------------------                 | -------------------------------------------   
+|  2. | [BMO.TO](ML_BMO_Predicts_RY.ipynb)    | [Bank of Montreal](../Data/Feature_Engineering_BMO.csv)     | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
+|  3. | [BNS.TO](ML_BNS_Predicts_RY.ipynb)    | [ScotiaBank](../Data/Feature_Engineering_BNS.ipynb)         | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
+|  4. | [CM.TO](ML_CM_Predicts_RY.ipynb)      | [Bank of Commerce/CIBC](../Data/Feature_Engineering_CM.csv) | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
+|  5. | [NA.TO](ML_NA_Predicts_RY.ipynb)      | [National Bank](../Data/Feature_Engineering_NA.csv)         | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
+|  6. | [TD.TO](ML_TD_Predicts_RY.ipynb)      | [TD Bank](../Data/Feature_Engineering_TD.csv)               | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
+| --- | ----------------------                | -------------------------------------------                 | -------------------------------------------   
+|  7. | [CL.TO](ML_CL_Predicts_RY.ipynb)      | [Crude Oil](../Data/Feature_Engineering_CL.csv)             | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
+|  8. | [XGB.TO](ML_ZWB_Predicts_RY.ipynb)    | [Government Bond Index](../Data/Feature_Engineering_XGB.csv) | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
+|  9. | [ZEB.TO](ML_ZWB_Predicts_RY.ipynb)    | [Canadian Bank Index](../Data/Feature_Engineering_ZEB.csv)   | [Royal Bank](../Data/Feature_Engineering_RY.csv)  
+| 10. | [ZWB.TO](ML_ZWB_Predicts_RY.ipynb)    | [Canadian Bank Index with Covered Call](../Data/Feature_Engineering_ZWB.csv)  | [Royal Bank](../Data/Feature_Engineering_RY.csv)  

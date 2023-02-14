@@ -1,5 +1,5 @@
 # Project 3 - Predict Weekly Trends of Royal Bank (RY.TO)
-# Feature Engineering
+# Moving Average Model
 ![RBC Banner Image](../Images/00_RBC_Banner.png)
   
 ## Project Overview  
